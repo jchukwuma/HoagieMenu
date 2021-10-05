@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { Pane, majorScale, minorScale, Spinner, EnvelopeIcon, ArrowLeftIcon, Button, Alert, InfoSignIcon } from 'evergreen-ui'
+import { Pane, majorScale, minorScale, Spinner, ArrowLeftIcon, Button, InfoSignIcon } from 'evergreen-ui'
 import Link from 'next/link'
 import AuthButton from '../lib/hoagie-ui/AuthButton'
-import useUser from '../components/Fake'
+import { useUser } from '../mock/UserProvider'
 
 export default function Index() {
   const { user, error, isLoading } = useUser();
@@ -16,9 +16,9 @@ export default function Index() {
         width={majorScale(35)}
         appearance="primary"
         marginBottom={20}
-        iconBefore={EnvelopeIcon}
+        iconBefore={InfoSignIcon}
       >
-          Send a new Email
+          Enter Application
       </Button></Link><br />
       <AuthButton variant="logout" />
     </Pane>;
