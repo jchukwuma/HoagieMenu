@@ -1,5 +1,4 @@
 import React from 'react';
-import { UserProvider } from '@auth0/nextjs-auth0';
 import Layout from '../lib/hoagie-ui/Layout';
 import Footer from '../components/Footer';
 import Theme from '../lib/hoagie-ui/Theme';
@@ -11,12 +10,12 @@ import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {
   return (
-    <UserProvider>
+    <Pane>
         <Head>
         <title>App by Hoagie</title>
       </Head>
       <Theme>
-      <Layout name="app">
+      <Layout name="menus">
       <Pane
           display="flex"
           width="100%"
@@ -26,6 +25,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       </Layout>
       </Theme>
-    </UserProvider>
+    </Pane>
   );
 }

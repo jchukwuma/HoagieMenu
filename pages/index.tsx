@@ -31,8 +31,6 @@ export default function Index() {
       if (queryParams.has('code')) {
         queryParams.delete('code')
         queryParams.delete('state')
-        // TODO: add support for other params to persist using 
-        // queryParam.toString() or remove the queryParams method
         router.replace("/", undefined, { shallow: true })
       }
     }, [])

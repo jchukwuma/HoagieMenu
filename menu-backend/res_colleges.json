@@ -1,0 +1,43 @@
+{
+    "colleges": [
+        {
+            "name": "Whitman",
+            "menu": [
+                ["Main Entree", ["Southern Fried Chicken"]],
+                ["Vegan", ["Baked Macaroni & Cheese"]],
+                ["Soups", ["Italian Wedding Soup", "Split Pea Soup"]],
+                ["Grill", ["Grilled Chicken","Onion Rings"]],
+                ["Dessert", ["Chocolate Cake"]]
+            ]
+        },
+        {
+            "name": "Wucox",
+            "menu": [
+                ["Main Entree", ["Orange Beef with Broccoli"]],
+                ["Vegan", ["Pan-Asian Orange Tofu"]],
+                ["Soups", ["Cream of Mushroom Soup", "Minestrone Soup"]],
+                ["Salad Bar", ["Fresh Fruit Salad"]]
+            ]
+        },
+        {
+            "name": "Forbes",
+            "menu": [
+                ["Main Entree", ["Steak"]],
+                ["Vegan", ["Vegan Chicken Parmesan"]],
+                ["Soups", ["Soup Soup", "Minestrone Soup"]],
+                ["Salad Bar", ["Chicken Salad"]],
+                ["Hoagie Bar", ["Meatball Hoagie"]]
+            ]
+        },
+        {
+            "name": "CJL",
+            "menu": [
+                ["Main Entree", ["Pastrami Sandwich"]],
+                ["Vegan", ["Roasted Veggie Sandwich"]],
+                ["Soups", ["Barley Soup", "Mushroom Barley Soup"]],
+                ["Salad Bar", ["Fresh Fruit Salad", "Greek Style Quinoa"]],
+                ["On the Side", ["Shoestring French Fries"]]
+            ]
+        }
+    ]
+}
