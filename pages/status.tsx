@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import { Pane } from 'evergreen-ui'
-import fetch from 'unfetch'
+import fetch from 'node-fetch'
 import useSWR from 'swr'
 
 const fetcher = url => fetch(url).then(r => r.json())
